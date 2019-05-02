@@ -28,5 +28,6 @@
 		<!ENTITY nextcloudSettings.port "Port number">
 		<!ENTITY nextcloudSettings.storageFolder "Opslagpad in Nextcloud">
 		<!ENTITY nextcloudSettings.username "Gebruikersnaam">
+		<!ENTITY nextcloudSettings.userUUID "User UUID ">
 		<!ENTITY nextcloudSettings.password "Wachtwoord">
 		<!ENTITY nextcloudSettings.protectUploads "Wachtwoord voor geüploade bestanden">
