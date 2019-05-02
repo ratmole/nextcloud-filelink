@@ -39,6 +39,7 @@ Cu.importGlobalProperties(["XMLHttpRequest"]);
 
 const kRestBase = "/ocs/v1.php";
 const kAuthPath = kRestBase + "/cloud/user";
+const kInfoPath = kRestBase + "/cloud/users";
 const kShareApp = kRestBase + "/apps/files_sharing/api/v1/shares";
 const kWebDavPath = "/remote.php/webdav";
 
@@ -112,6 +113,7 @@ Nextcloud.prototype = {
 	_fullUrl: "",
 	_storageFolder: "",
 	_userName: "",
+	_userUUID: "",
 	_password: "",
 	_protectUploads: "",
 	_prefBranch: null,
@@ -152,6 +154,7 @@ Nextcloud.prototype = {
 		this._serverUrl = this._prefBranch.getCharPref("server");
 		this._serverPort = this._prefBranch.getIntPref("port");
 		this._userName = this._prefBranch.getCharPref("username");
+		this._userUUID = this._prefBranch.getCharPref("userUUID");
 		let fullUrl = this._serverUrl + ":" + this._serverPort;
 		const thirdSlash = this._serverUrl.indexOf('/', 9);
 		if (thirdSlash !== -1) {
@@ -442,7 +445,7 @@ Nextcloud.prototype = {
 		let args = "?format=json";
 		let req = new XMLHttpRequest(Ci.nsIXMLHttpRequest);
 
-		req.open("GET", this._fullUrl + kAuthPath + args, true);
+		req.open("GET", this._fullUrl + kInfoPath + '/' + this._userUUID + args, true);
 		req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 		req.setRequestHeader("OCS-APIREQUEST", "true");
 		req.setRequestHeader("Authorization",
