@@ -28,5 +28,6 @@
 <!ENTITY nextcloudSettings.port "Puerto">
 <!ENTITY nextcloudSettings.storageFolder "Ruta de almacenamiento en ownCloud">
 <!ENTITY nextcloudSettings.username "Nombre de usuario">
+<!ENTITY nextcloudSettings.userUUID "User UUID ">
 <!ENTITY nextcloudSettings.password "Contraseña">
 <!ENTITY nextcloudSettings.protectUploads "Contraseña para archivos cargados">
