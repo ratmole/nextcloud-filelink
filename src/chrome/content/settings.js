@@ -37,6 +37,7 @@ function extraArgs () {
 	let storageFolderValue = document.getElementById("storageFolder").value;
 	let userValue = document.getElementById("username").value;
 	let protectUploadsValue = document.getElementById("protectUploads").value;
+	let userUUIDValue = document.getElementById("userUUID").value;
 
 	return {
 		"displayName": {
@@ -62,6 +63,10 @@ function extraArgs () {
 		"protectUploads": {
 			type: "char",
 			value: protectUploadsValue
+		},
+		"userUUID": {
+			type: "char",
+			value: userUUIDValue
 		}
 	};
 }
