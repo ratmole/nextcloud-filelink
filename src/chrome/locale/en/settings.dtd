@@ -28,5 +28,6 @@
 		<!ENTITY nextcloudSettings.port "Port number">
 		<!ENTITY nextcloudSettings.storageFolder "Storage path in Nextcloud">
 		<!ENTITY nextcloudSettings.username "Username">
+		<!ENTITY nextcloudSettings.userUUID "User UUID ">
 		<!ENTITY nextcloudSettings.password "Password">
 		<!ENTITY nextcloudSettings.protectUploads "Password for uploaded files">
