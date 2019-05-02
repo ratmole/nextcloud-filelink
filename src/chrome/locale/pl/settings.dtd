@@ -28,5 +28,6 @@
 		<!ENTITY nextcloudSettings.port "Port number">
 		<!ENTITY nextcloudSettings.storageFolder "Folder do którego będą wgrywane załączniki">
 		<!ENTITY nextcloudSettings.username "Twoja nazwa użytkownika">
+		<!ENTITY nextcloudSettings.userUUID "User UUID ">
 		<!ENTITY nextcloudSettings.password "Twoje hasło">
 		<!ENTITY nextcloudSettings.protectUploads "Hasło dostępu do wgranych załączników">
