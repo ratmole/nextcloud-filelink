@@ -444,8 +444,13 @@ Nextcloud.prototype = {
 
 		let args = "?format=json";
 		let req = new XMLHttpRequest(Ci.nsIXMLHttpRequest);
-
-		req.open("GET", this._fullUrl + kInfoPath + '/' + this._userUUID + args, true);
+		
+		if (this._userUUID == "") {
+			req.open("GET", this._fullUrl + kAuthPath + args, true);
+		}
+		else {
+			req.open("GET", this._fullUrl + kInfoPath + '/' + this._userUUID + args, true);
+		}
 		req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 		req.setRequestHeader("OCS-APIREQUEST", "true");
 		req.setRequestHeader("Authorization",
