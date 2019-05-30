@@ -38,6 +38,7 @@ function extraArgs () {
 	let userValue = document.getElementById("username").value;
 	let protectUploadsValue = document.getElementById("protectUploads").value;
 	let userUUIDValue = document.getElementById("userUUID").value;
+    let days2expiryValue = document.getElementById("days2expiry").value; 
 
 	return {
 		"displayName": {
@@ -67,6 +68,10 @@ function extraArgs () {
 		"userUUID": {
 			type: "char",
 			value: userUUIDValue
+		},
+		"days2expiry": {
+			type: "int",
+			value: days2expiryValue
 		}
 	};
 }

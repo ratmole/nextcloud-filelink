@@ -31,3 +31,4 @@
 		<!ENTITY nextcloudSettings.userUUID "User UUID ">
 		<!ENTITY nextcloudSettings.password "Mot de passe">
 		<!ENTITY nextcloudSettings.protectUploads "Mot de passe pour fichiers téléversés">
+ 		<!ENTITY nextcloudSettings.days2expiry "Nombre de jours avant expiration"> 

@@ -31,3 +31,4 @@
 		<!ENTITY nextcloudSettings.userUUID "User UUID ">
 		<!ENTITY nextcloudSettings.password "Twoje hasło">
 		<!ENTITY nextcloudSettings.protectUploads "Hasło dostępu do wgranych załączników">
+ 		<!ENTITY nextcloudSettings.days2expiry "Liczba dni do wygaśnięcia"> 

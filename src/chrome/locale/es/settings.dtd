@@ -31,3 +31,4 @@
 <!ENTITY nextcloudSettings.userUUID "User UUID ">
 <!ENTITY nextcloudSettings.password "Contraseña">
 <!ENTITY nextcloudSettings.protectUploads "Contraseña para archivos cargados">
+<!ENTITY nextcloudSettings.days2expiry "Número de días hasta el vencimiento">

@@ -31,3 +31,4 @@
 		<!ENTITY nextcloudSettings.userUUID "User UUID ">
 		<!ENTITY nextcloudSettings.password "Wachtwoord">
 		<!ENTITY nextcloudSettings.protectUploads "Wachtwoord voor geüploade bestanden">
+ 		<!ENTITY nextcloudSettings.days2expiry "Aantal dagen tot expiratie"> 
