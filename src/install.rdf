@@ -5,15 +5,15 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>owncloud@viguierjust.com</em:id>
-    <em:name>Owncloud for Filelink</em:name>
-    <em:version>1.8.1</em:version>
+    <em:name>Nextcloud for Filelink</em:name>
+    <em:version>1.8</em:version>
     <em:type>2</em:type>
     <em:creator>Olivier Paroz</em:creator>
     <em:contributor>Philipp Kewisch</em:contributor>
     <em:contributor>Mark James</em:contributor>
     <em:contributor>Guillaume Viguier-Just</em:contributor>
 
-    <em:description>Owncloud provider for Thunderbird Filelink</em:description>
+    <em:description>Nextcloud provider for Thunderbird Filelink</em:description>
     <em:homepageURL>https://github.com/nextcloud/nextcloud-filelink</em:homepageURL>
     <em:aboutURL>chrome://nextcloud/content/about.xul</em:aboutURL>
 
@@ -28,16 +28,16 @@
     <em:localized>
       <Description>
         <em:locale>es</em:locale>
-        <em:name>Soporte de Owncloud para Filelink</em:name>
-        <em:description>Añade soporte de Owncloud para la característica Filelink en Thunderbird.</em:description>
+        <em:name>Soporte de Nextcloud para Filelink</em:name>
+        <em:description>Añade soporte de Nextcloud para la característica Filelink en Thunderbird.</em:description>
       </Description>
     </em:localized>
 
     <em:localized>
       <Description>
         <em:locale>fr</em:locale>
-        <em:name>Owncloud pour Filelink</em:name>
-        <em:description>Ajout du support de Owncloud pour la fonction Filelink de Thunderbird</em:description>
+        <em:name>Nextcloud pour Filelink</em:name>
+        <em:description>Ajout du support de Nextcloud pour la fonction Filelink de Thunderbird</em:description>
       </Description>
     </em:localized>
 
